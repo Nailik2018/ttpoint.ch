@@ -19,6 +19,11 @@ body{
     text-align: center;
 }
 
+.white:hover, .light-gray:hover, .association-swiss:hover {
+    background: darkcyan;
+    color: white;
+}
+
 .association-swiss{
     background: red;
     color: white;
