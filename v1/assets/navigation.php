@@ -1,4 +1,3 @@
-<script type="text/javascript" src="v1/js/navigation.js"></script>
 <title>Document</title>
 <link rel="stylesheet" href="v1/css/navigation.css">
 </head>
@@ -20,3 +19,4 @@
     </span>
     </div>
 </nav>
+<script type="text/javascript" src="v1/js/navigation.js"></script>

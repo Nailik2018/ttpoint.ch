@@ -3,12 +3,16 @@ body{
     padding: 0;
 }
 
-#ttpoint-content-associations{
-    /*height: calc(100vh - 60px);*/
-    /*height: 100px;*/
+.row{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+#distance-to-navigation{
     width: 100vw;
     background: black;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 .card{
@@ -20,6 +24,21 @@ body{
     color: white;
     text-align: center;
 }
+
+.white{
+    background: white;
+    color:black;
+}
+
+.light-gray{
+    background: lightgray;
+    color: white
+}
+
+.black{
+    color: black;
+}
+
 @media screen and (max-width: 991px) {
 
     body{
@@ -33,6 +52,11 @@ body{
 
     #ttpoint-content{
         background: blue;
+    }
+
+    .row{
+        margin-top: 0;
+        margin-bottom: 0;
     }
 }
 
