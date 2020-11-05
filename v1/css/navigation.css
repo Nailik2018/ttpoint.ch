@@ -1,0 +1,10 @@
+#mttv-bar{
+    background: #a60001;
+}
+
+.navbar{
+    color: blue;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
