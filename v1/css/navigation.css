@@ -1,5 +1,6 @@
-#mttv-bar{
-    background: #a60001;
+#navbar-ttpoint{
+    /*background: #a60001;*/
+    background: darkcyan !important;
 }
 
 .navbar{
@@ -7,4 +8,15 @@
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 1;
+}
+
+.nav-item, .nav-item .nav-link{
+    float: left;
+}
+
+@media screen and (max-width: 991px) {
+    .nav-item, .nav-item .nav-link{
+        float: none;
+    }
 }

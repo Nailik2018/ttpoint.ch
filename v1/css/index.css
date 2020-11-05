@@ -1,10 +1,39 @@
-thead tr th{
-    background: #dc3545;
-    color: white;
+body{
+    margin: 0;
+    padding: 0;
 }
 
-tbody tr{
-    cursor: pointer;
+#ttpoint-content-associations{
+    /*height: calc(100vh - 60px);*/
+    /*height: 100px;*/
+    width: 100vw;
+    background: black;
+    margin-top: 100px;
+}
+
+.card{
+    text-align: center;
+}
+
+.association-swiss{
+    background: red;
+    color: white;
+    text-align: center;
+}
+@media screen and (max-width: 991px) {
+
+    body{
+        font-size: 0.8rem;
+    }
+
+    .container{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    #ttpoint-content{
+        background: blue;
+    }
 }
 
 @media screen and (max-width: 320px) {
