@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw
+}
+
+.container-fluid{
+    margin-right: 0px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#distance-to-navigation{
+    width: 100vw;
+    background: black;
+    margin-top: 70px;
+}
+
+.puffer-to-navigation{
+    height: 80px;
+    width: 100%;
+    /*margin-top: 100px;*/
+    /*height: 100vh;*/
+}
+
+.card{
+    text-align: center;
+}
+
+.row{
+    margin-left: 0!important;
+    margin-right: 0!important;
+    margin-bottom: 10px;
+}
+
+.white:hover, .light-gray:hover, .association-swiss:hover {
+    background: darkcyan;
+    color: white;
+}
+
+.association-swiss{
+    background: red;
+    color: white;
+    text-align: center;
+}
+
+.white{
+    background: white;
+    color:black;
+}
+
+.light-gray{
+    background: lightgray;
+    color: white
+}
+
+.black{
+    color: black;
+}
+
+@media screen and (max-width: 991px) {
+
+    body{
+        font-size: 0.8rem;
+    }
+
+    .container{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    #ttpoint-content{
+        background: blue;
+    }
+
+    .row{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    body{
+        font-size: 0.8rem;
+    }
+
+    .container{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}

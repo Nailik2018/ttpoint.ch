@@ -13,7 +13,7 @@
     <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="https://ttpoint.ch/v1/verbaende">Verbände<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="https://ttpoint.ch/v1/sites/associations/">Verbände<span class="sr-only">(current)</span></a>
                 <a class="nav-link" href="https://ttpoint.ch/v1/ranking">Rankings<span class="sr-only"></span></a>
             </li>
         </ul>

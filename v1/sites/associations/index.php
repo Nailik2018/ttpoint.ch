@@ -1,15 +1,14 @@
-<?php require_once "./v1/assets/header.php" ?>
-    <link rel="stylesheet" href="https://ttpoint.ch/v1/css/index.css">
-    <title>Startseite ttpoint.ch</title>
-<?php require_once "./v1/assets/navigation.php" ?>
+<?php require_once "../../../v1/assets/header.php" ?>
+    <link rel="stylesheet" href="https://ttpoint.ch/v1/sites/associations/index.css">
 
-<!--<div class="container">-->
-    <div class="row" id="distance-to-navigation">
-        <div class="col-md-12"></div>
-    </div>
+<?php require_once "../../../v1/assets/navigation.php" ?>
 
-<div class="ttpoint-startpage-content">
-    <div class="ttpoint-verbaende">
+<div class="container-fluid">
+<!--    <div class="row" id="distance-to-navigation">-->
+<!--        <div class="col-md-12"></div>-->
+<!--    </div>-->
+    <div class="ttpoint-associations">
+        <div class="row puffer-to-navigation"></div>
         <div class='row'><div class='col-md-12'><h1>Tischtennis Verbände</h1></div></div>
 
         <div class="row">
@@ -101,39 +100,5 @@
             </div>
         </div>
     </div>
-
-    <div class='row'><div class='col-md-12'><h1>Tischtennis Ranking</h1></div></div>
-
-    <div class="row">
-        <div class="col-md-4">
-            <a href="https://ttpoint.ch/v1/sites/association/?association=nwttv">
-                <div class="card light-gray">
-                    <div class="card-body">
-                        <h5 class="card-title">Schweizer Ranking</h5>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="col-md-4">
-            <a href="https://ttpoint.ch/v1/sites/association/?association=ottv">
-                <div class="card white">
-                    <div class="card-body">
-                        <h5 class="card-title">Damen Ranking</h5>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="col-md-4">
-            <a href="https://ttpoint.ch/v1/sites/association/?association=ttvi">
-                <div class="card light-gray">
-                    <div class="card-body">
-                        <h5 class="card-title">Herren Ranking</h5>
-                    </div>
-                </div>
-            </a>
-        </div>
-    </div>
 </div>
-    <script type="text/javascript" src="https://ttpoint.ch/v1/js/index.js"></script>
-
-<?php require_once "./v1/assets/footer.php" ?>
+<?php require_once "../../../v1/assets/footer.php" ?>
