@@ -20,8 +20,6 @@ body{
 .puffer-to-navigation{
     height: 80px;
     width: 100%;
-    /*margin-top: 100px;*/
-    /*height: 100vh;*/
 }
 
 .card{
@@ -39,7 +37,7 @@ body{
     color: white;
 }
 
-.association-swiss{
+.swiss{
     background: red;
     color: white;
     text-align: center;

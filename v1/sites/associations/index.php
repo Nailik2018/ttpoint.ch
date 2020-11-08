@@ -1,5 +1,6 @@
 <?php require_once "../../../v1/assets/header.php" ?>
     <link rel="stylesheet" href="https://ttpoint.ch/v1/sites/associations/index.css">
+    <title>Verbands Übersicht</title>
 
 <?php require_once "../../../v1/assets/navigation.php" ?>
 
@@ -10,11 +11,10 @@
     <div class="ttpoint-associations">
         <div class="row puffer-to-navigation"></div>
         <div class='row'><div class='col-md-12'><h1>Tischtennis Verbände</h1></div></div>
-
         <div class="row">
             <div class="col-md-4">
                 <a href="https://ttpoint.ch/v1/sites/association/?association=sttv">
-                    <div class="card association-swiss">
+                    <div class="card swiss">
                         <div class="card-body">
                             <h5 class="card-title">STTV</h5>
                         </div>
