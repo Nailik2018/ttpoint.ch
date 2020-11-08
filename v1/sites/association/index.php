@@ -1,9 +1,12 @@
-<?php
-//require_once "../../../v1/assets/header.php";
-require_once "../../../v1/assets/header.php";
-require_once "../../../v1/assets/navigation.php";
+<?php require_once "../../../v1/assets/header.php" ?>
+    <link rel="stylesheet" href="https://ttpoint.ch/v1/sites/association/index.css">
+    <title>Club</title>
 
+<?php require_once "../../../v1/assets/navigation.php" ?>
 
-echo "hallo";
+<div class="container-fluid">
+    <h1>Hallo</h1>
+</div>
 
- require_once "../../../v1/assets/footer.php";
+<?php require_once "../../../v1/assets/footer.php" ?>
+
