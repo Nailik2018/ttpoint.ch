@@ -1,9 +1,11 @@
 <title>Document</title>
-<link rel="stylesheet" href="v1/css/navigation.css">
+<!--<link rel="stylesheet" href="v1/css/navigation.css">-->
+<link rel="stylesheet" href="https://ttpoint.ch/v1/css/navigation.css">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-danger" id="navbar-ttpoint">
-    <a class="navbar-brand" href="#"><img src="v1/assets/logos/table-tennis1.svg"></a>
+<!--    <a class="navbar-brand" href="#"><img src="v1/assets/logos/table-tennis1.svg"></a>-->
+    <a class="navbar-brand" href="https://ttpoint.ch"><img src="https://ttpoint.ch/v1/assets/logos/table-tennis1.svg"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapsed" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <!--<utton class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">-->
         <span class="navbar-toggler-icon" onclick="showMenu()"></span>
@@ -19,4 +21,5 @@
     </span>
     </div>
 </nav>
-<script type="text/javascript" src="v1/js/navigation.js"></script>
+<!--<script type="text/javascript" src="v1/js/navigation.js"></script>-->
+<script type="text/javascript" src="https://ttpoint.ch/v1/js/navigation.js"></script>
