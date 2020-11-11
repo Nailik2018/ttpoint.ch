@@ -57,11 +57,11 @@ body{
     position: relative;
 }
 
-.ranking-number-wrapper, .player-informations, .player-elos, .player-association{
+.ranking-number-wrapper, .player-informations, .player-elos, .player-gender, .player-informations2{
     position: absolute;
 }
 
-.ranking-number, .player-association, .player-elos{
+.ranking-number, .player-gender, .player-elos{
     /*text-align: center;*/
     /*justify-content: center;*/
 }
@@ -82,36 +82,58 @@ body{
     margin-left: 10px;
 }
 
+.player-name{
+    overflow: hidden;
+}
+
 .player-informations{
     height: 100%;
-    width: 65%;
+    width: 70%;
     top: 0;
     left: 15%;
     /*background: red;*/
     font-size: 25px;
+    overflow: hidden;
 }
 
 .player-name{
     height: 50%;
+    /*height: 70%;*/
 }
 
 .player-club{
     height: 50%;
+    /*font-size: 16px;*/
 }
 
-.player-association{
+.player-informations2{
+    height: 100%;
+    width: 5%;
+    left: 95%;
+    /*background: red;*/
+}
+
+.player-gender{
+    display: flex;
+    justify-content: center;
     height: 50%;
-    width: 20%;
+    width: 100%;
     top: 0;
-    left: 80%;
+    /*background: blue;*/
 }
 
 .player-elos{
+    display: flex;
+    justify-content: center;
     height: 50%;
-    width: 20%;
+    width: 100%;
     top: 50%;
-    left: 80%;
     /*background: darkcyan;*/
+}
+
+.gender-symbol{
+    height: 80%;
+    padding: 10px;
 }
 
 @keyframes pulse {
@@ -142,7 +164,7 @@ body{
         width: 65%;
     }
 
-    .player-association, .player-elos{
+    .player-gender, .player-elos{
         width: 10%;
         left: 90%;
     }

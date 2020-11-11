@@ -41,3 +41,20 @@ function elosToClassment(elo){
         return "A20";
     }
 }
+
+/**
+ * */
+function getGenderSymbolHTML(genderId){
+
+    switch (genderId){
+        case 1:
+            return "<img class='gender-symbol' src='https://ttpoint.ch/v1/assets/logos/gender/male.png'>";
+            break;
+        case 2:
+            return "<img class='gender-symbol' src='https://ttpoint.ch/v1/assets/logos/gender/female.png'>";
+            break;
+        default:
+            return "";
+            break;
+    }
+}
