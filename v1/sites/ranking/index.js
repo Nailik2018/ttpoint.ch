@@ -53,8 +53,7 @@ function printRanking(data, id){
             // html = "<div class='row'><div class='col-md-12'><div class='card' id='number-" + ranking + "'><div class='ranking-number-wrapper'><div class='ranking-number'>" + ranking + "</div></div><div class='player-informations'><div class='player-name'>" + firstname + " " + lastname + "</div><div class='player-club'>" + clubname + " (" + association + ")" + "</div></div><div class='player-informations2'><div class='player-gender'><img class='gender-symbol' src='https://ttpoint.ch/v1/assets/logos/gender/male.png'></div><div class='player-elos'>" + elo + " (" + elosToClassment(elo) + ")" + "</div></div></div></div></div></div>";
             html = "<div class='row'><div class='col-md-12'><div class='card' id='number-" + ranking + "'><div class='ranking-number-wrapper'><div class='ranking-number'>" + ranking + "</div></div><div class='player-informations'><div class='player-name'>" + firstname + " " + lastname + "</div><div class='player-club'>" + clubname + " (" + association + ")" + "</div></div><div class='player-informations2'><div class='player-gender'>" + getGenderSymbolHTML(genderID) + "</div><div class='player-elos'>" + elo + " (" + elosToClassment(elo) + ")" + "</div></div></div></div></div>";
         }
-
-
+        
         htmlStructur += html;
         console.log(d);
         console.log("-----");

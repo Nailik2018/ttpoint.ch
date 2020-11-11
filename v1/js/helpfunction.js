@@ -1,3 +1,8 @@
+/***
+ *
+ * @param elo
+ * @returns {string}
+ */
 function elosToClassment(elo){
     if(elo <= 659){
         return "D1";
@@ -42,8 +47,11 @@ function elosToClassment(elo){
     }
 }
 
-/**
- * */
+/***
+ *
+ * @param genderId
+ * @returns {htmlCode}
+ */
 function getGenderSymbolHTML(genderId){
 
     switch (genderId){

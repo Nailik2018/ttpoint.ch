@@ -88,7 +88,8 @@ body{
 
 .player-informations{
     height: 100%;
-    width: 70%;
+    /*width: 70%;*/
+    width: calc( (100% - 90px) - 15%);
     top: 0;
     left: 15%;
     /*background: red;*/
@@ -109,7 +110,9 @@ body{
 .player-informations2{
     height: 100%;
     width: 5%;
-    left: 95%;
+    min-width: 90px;
+    /*left: 95%;*/
+    left: calc((100% - 5%) - 90px);
     /*background: red;*/
 }
 
@@ -133,6 +136,7 @@ body{
 
 .gender-symbol{
     height: 80%;
+    /*width: 80%;*/
     padding: 10px;
 }
 
@@ -174,3 +178,20 @@ body{
         font-size: 40px;
     }
 }
+
+@media screen and (max-width: 440px) {
+
+    .ranking-number{
+        font-size: 30px;
+    }
+
+    .player-name{
+        height: 70%;
+    }
+
+    .player-club{
+        height: 30%;
+        font-size: 16px;
+    }
+}
+
