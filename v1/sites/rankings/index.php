@@ -5,7 +5,7 @@
 
     <div class="container-fluid">
         <div class="row puffer-to-navigation"></div>
-        <div class='row'><div class='col-md-12'><h1>Spieler Rankings</h1></div></div>
+        <div class='row'><div class='col-md-12'><h1>Spieler Rankings Schweiz</h1></div></div>
         <div class="row">
             <div class="col-md-4">
                 <a href="https://ttpoint.ch/v1/sites/ranking/index.php">
@@ -35,5 +35,6 @@
                 </a>
             </div>
         </div>
+        <hr>
     </div>
 <?php require_once "../../../v1/assets/footer.php" ?>
