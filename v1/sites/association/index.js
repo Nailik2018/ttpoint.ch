@@ -63,5 +63,5 @@ function drawHTML(jsonData, elementId){
 }
 
 function selectedClub(clubname) {
-    window.location.href='https://ttpoint.ch/v1/sites/club/?clubname=' + clubname + '';
+    window.location.href='https://ttpoint.ch/v1/sites/club/index.php?clubname=' + clubname + '';
 }
