@@ -18,7 +18,8 @@ xhttp.onreadystatechange = function() {
         let json = JSON.parse(this.responseText);
         console.log(json);
         getAssociation(association, '[data-association]');
-        drawHTML(json, 'data-content-clubs');
+        // drawHTML(json, 'data-content-clubs');
+        drawHTML(json, 'table-body');
 
     }
 };
@@ -33,20 +34,34 @@ function getAssociation(association, dataAttribute){
 }
 
 function drawHTML(jsonData, elementId){
-    let element = document.getElementById(elementId);
-    // let tableHeader = "<table class='table table-striped'><thead><tr><th scope='col'>#</th><th scope='col'>Clubname</th><th scope='col'>Lizenzierte Spieler</th><th scope='col'>Höchsterelowert</th></tr></thead><tbody>"
-    let tableHeader = "<table class='table table-striped'><thead><tr><th scope='col'>#</th><th scope='col'>Clubname</th><th scope='col'>Lizenzierte Spieler</th></tr></thead><tbody>"
-    let dataHtml = '';
 
     let i = 1;
 
+    let tableBody = document.getElementById(elementId);
+
     for(let club of jsonData){
-        // let row = "<tr><th scope='row'>" + i + "</th><td>" + club.clubname + "</td><td>" + club.licencedPlayer + "</td><td>" + club.highestEloOfClubPlayer + "</td></tr>";
-        let row = "<tr><th scope='row'>" + i + "</th><td>" + club.clubname + "</td><td>" + club.licencedPlayer + "</td></tr>";
-        dataHtml += row;
+
+        let tr = document.createElement("tr");
+        tr.onclick = function() { selectedClub(club.clubname); };
+
+        let count = document.createElement("td");
+        let clubname = document.createElement("td");
+        let licencedPlayer = document.createElement("td");
+
+        count.innerText = i;
+        clubname.innerText = club.clubname;
+        licencedPlayer.innerText = club.licencedPlayer;
+
+        tr.appendChild(count);
+        tr.appendChild(clubname);
+        tr.appendChild(licencedPlayer);
+
+        tableBody.appendChild(tr);
+
         i++;
     }
+}
 
-    let tableFooter = "</tbody></table>";
-    element.innerHTML = tableHeader + dataHtml + tableFooter;
+function selectedClub(clubname) {
+    window.location.href='https://ttpoint.ch/v1/sites/club/?clubname=' + clubname + '';
 }
