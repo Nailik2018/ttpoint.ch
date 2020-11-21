@@ -43,12 +43,18 @@ body{
 }
 
 table{
+    border-top: solid dimgray 1px;
     border-left: solid dimgray 1px;
     border-right: solid dimgray 1px;
     border-bottom: solid dimgray 1px;
 }
 
 thead{
-    background: slategray;
+    /*background: slategray;*/
+    background: darkcyan;
     color: white;
+}
+
+tr{
+    border-bottom: solid dimgray 1px;
 }
