@@ -34,13 +34,15 @@ function getAssociation(association, dataAttribute){
 
 function drawHTML(jsonData, elementId){
     let element = document.getElementById(elementId);
-    let tableHeader = "<table class='table table-striped'><thead><tr><th scope='col'>#</th><th scope='col'>Clubname</th><th scope='col'>Anzahl Lizenzierte Spieler</th><th scope='col'>Höchster Elowert</th></tr></thead><tbody>"
+    // let tableHeader = "<table class='table table-striped'><thead><tr><th scope='col'>#</th><th scope='col'>Clubname</th><th scope='col'>Lizenzierte Spieler</th><th scope='col'>Höchsterelowert</th></tr></thead><tbody>"
+    let tableHeader = "<table class='table table-striped'><thead><tr><th scope='col'>#</th><th scope='col'>Clubname</th><th scope='col'>Lizenzierte Spieler</th></tr></thead><tbody>"
     let dataHtml = '';
 
     let i = 1;
 
     for(let club of jsonData){
-        let row = "<tr><th scope='row'>" + i + "</th><td>" + club.clubname + "</td><td>" + club.licencedPlayer + "</td><td> " + club.highestEloOfClubPlayer + "</td></tr>";
+        // let row = "<tr><th scope='row'>" + i + "</th><td>" + club.clubname + "</td><td>" + club.licencedPlayer + "</td><td>" + club.highestEloOfClubPlayer + "</td></tr>";
+        let row = "<tr><th scope='row'>" + i + "</th><td>" + club.clubname + "</td><td>" + club.licencedPlayer + "</td></tr>";
         dataHtml += row;
         i++;
     }

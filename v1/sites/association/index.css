@@ -6,7 +6,8 @@ body{
 }
 
 .container-fluid{
-    margin-right: 0px;
+    margin-left: 0;
+    margin-right: 0;
     padding-left: 0;
     padding-right: 0;
 }
@@ -33,6 +34,10 @@ body{
 }
 
 #data-content-clubs{
+    /*height: 100%;*/
+    height: calc(100%);
+    /*width: 100%;*/
+    width: calc(100% - 40px);
     margin-left: 20px;
     margin-right: 20px;
 }

@@ -6,9 +6,7 @@
 
 <div class="container-fluid">
         <div class="row" id="distance-to-navigation">
-            <div class="col-md-12">
-
-            </div>
+            <div class="col-md-12"></div>
         </div>
     <div class="row">
         <div class="col-md-12">
@@ -16,64 +14,8 @@
         </div>
     </div>
 <!--    <div class="row">-->
-        <div id="data-content-clubs"></div>
-<!--    </div>-->
-<!--    <div id="data-content-clubs">-->
-<!--        <div class="row">-->
-<!--            <div class="col-md-2">-->
-<!--                <a href="https://ttpoint.ch/v1/sites/ranking/index.php">-->
-<!--                    <div class="card swiss">-->
-<!--                        <div class="card-body">-->
-<!--                            <h5 class="card-title">Aarberg</h5>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </a>-->
-<!--            </div>-->
-<!--            <div class="col-md-2">-->
-<!--                <a href="https://ttpoint.ch/v1/sites/ranking/index.php">-->
-<!--                    <div class="card swiss">-->
-<!--                        <div class="card-body">-->
-<!--                            <h5 class="card-title">Thun</h5>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </a>-->
-<!--            </div>-->
-<!--            <div class="col-md-2">-->
-<!--                <a href="https://ttpoint.ch/v1/sites/ranking/index.php">-->
-<!--                    <div class="card swiss">-->
-<!--                        <div class="card-body">-->
-<!--                            <h5 class="card-title">Ostermundigen</h5>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </a>-->
-<!--            </div>-->
-<!--            <div class="col-md-2">-->
-<!--                <a href="https://ttpoint.ch/v1/sites/ranking/index.php">-->
-<!--                    <div class="card swiss">-->
-<!--                        <div class="card-body">-->
-<!--                            <h5 class="card-title">SC Informatik Swisscom Wabern</h5>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </a>-->
-<!--            </div>-->
-<!--            <div class="col-md-2">-->
-<!--                <a href="https://ttpoint.ch/v1/sites/ranking/index.php">-->
-<!--                    <div class="card swiss">-->
-<!--                        <div class="card-body">-->
-<!--                            <h5 class="card-title">Aarberg</h5>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </a>-->
-<!--            </div>-->
-<!--            <div class="col-md-2">-->
-<!--                <a href="https://ttpoint.ch/v1/sites/ranking/index.php">-->
-<!--                    <div class="card swiss">-->
-<!--                        <div class="card-body">-->
-<!--                            <h5 class="card-title">Aarberg</h5>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </a>-->
-<!--            </div>-->
+<!--        <div class="col-md-12">-->
+            <div id="data-content-clubs"></div>
 <!--        </div>-->
 <!--    </div>-->
 </div>
