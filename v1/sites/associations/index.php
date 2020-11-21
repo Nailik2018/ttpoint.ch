@@ -13,7 +13,7 @@
         <div class='row'><div class='col-md-12'><h1>Tischtennis Verbände</h1></div></div>
         <div class="row">
             <div class="col-md-4">
-                <a href="https://ttpoint.ch/v1/sites/association/?association=sttv">
+                <a href="https://ttpoint.ch/v1/sites/association/index.php?association=sttv">
                     <div class="card swiss">
                         <div class="card-body">
                             <h5 class="card-title">STTV</h5>
@@ -22,7 +22,7 @@
                 </a>
             </div>
             <div class="col-md-4">
-                <a href="https://ttpoint.ch/v1/sites/association/?association=agtt">
+                <a href="https://ttpoint.ch/v1/sites/association/index.php?association=agtt">
                     <div class="card white">
                         <div class="card-body">
                             <h5 class="card-title">AGTT</h5>
@@ -31,7 +31,7 @@
                 </a>
             </div>
             <div class="col-md-4">
-                <a href="https://ttpoint.ch/v1/sites/association/?association=anjtt">
+                <a href="https://ttpoint.ch/v1/sites/association/?index.phpassociation=anjtt">
                     <div class="card light-gray">
                         <div class="card-body">
                             <h5 class="card-title">ANJTT</h5>
@@ -43,7 +43,7 @@
 
         <div class="row">
             <div class="col-md-4">
-                <a href="https://ttpoint.ch/v1/sites/association/?association=attt">
+                <a href="https://ttpoint.ch/v1/sites/association/index.php?association=attt">
                     <div class="card white">
                         <div class="card-body">
                             <h5 class="card-title">ATTT</h5>
@@ -52,7 +52,7 @@
                 </a>
             </div>
             <div class="col-md-4">
-                <a href="https://ttpoint.ch/v1/sites/association/?association=avvf">
+                <a href="https://ttpoint.ch/v1/sites/association/index.php?association=avvf">
                     <div class="card light-gray">
                         <div class="card-body">
                             <h5 class="card-title">AVVF</h5>
@@ -61,7 +61,7 @@
                 </a>
             </div>
             <div class="col-md-4">
-                <a href="https://ttpoint.ch/v1/sites/association/?association=mttv">
+                <a href="https://ttpoint.ch/v1/sites/association/index.php?association=mttv">
                     <div class="card white" >
                         <div class="card-body">
                             <h5 class="card-title">MTTV</h5>
@@ -73,7 +73,7 @@
 
         <div class="row">
             <div class="col-md-4">
-                <a href="https://ttpoint.ch/v1/sites/association/?association=nwttv"><div class="card light-gray">
+                <a href="https://ttpoint.ch/v1/sites/association/index.php?association=nwttv"><div class="card light-gray">
                         <div class="card-body">
                             <h5 class="card-title">NWTTV</h5>
                         </div>
@@ -81,7 +81,7 @@
                 </a>
             </div>
             <div class="col-md-4">
-                <a href="https://ttpoint.ch/v1/sites/association/?association=ottv">
+                <a href="https://ttpoint.ch/v1/sites/association/index.php?association=ottv">
                     <div class="card white">
                         <div class="card-body">
                             <h5 class="card-title">OTTV</h5>
@@ -90,7 +90,7 @@
                 </a>
             </div>
             <div class="col-md-4">
-                <a href="https://ttpoint.ch/v1/sites/association/?association=ttvi">
+                <a href="https://ttpoint.ch/v1/sites/association/index.php?association=ttvi">
                     <div class="card light-gray">
                         <div class="card-body">
                             <h5 class="card-title">TTVI</h5>
