@@ -1,8 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    height: 100vh;
-    width: 100vw
 }
 
 .container-fluid{
@@ -34,9 +32,7 @@ body{
 }
 
 #data-content-clubs{
-    /*height: 100%;*/
     height: calc(100%);
-    /*width: 100%;*/
     width: calc(100% - 40px);
     margin-left: 20px;
     margin-right: 20px;
@@ -51,7 +47,6 @@ table{
 }
 
 thead{
-    /*background: slategray;*/
     background: darkcyan;
     color: white;
 }

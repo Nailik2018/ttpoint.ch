@@ -8,7 +8,7 @@ let ajaxUrl = '';
 const queryString = window.location.search;
 const apiUrl = baseUrl + queryString;
 const urlParams = new URLSearchParams(queryString);
-const association = urlParams.get('association')
+const association = urlParams.get('association');
 
 // Abwicklung der Logik startet hier
 let xhttp = new XMLHttpRequest();

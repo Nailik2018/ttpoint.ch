@@ -10,6 +10,41 @@
     </div>
     <div class="row">
         <div class="col-md-12">
+            <h1>Ranking aus dem Verband: <span data-association></span></h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <a href="https://ttpoint.ch/v1/sites/ranking/index.php?association=<?php $_GET['association']?>">
+                <div class="card swiss">
+                    <div class="card-body">
+                        <h5 class="card-title">Ranking</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="https://ttpoint.ch/v1/sites/ranking/index.php?gender=damen">
+                <div class="card white">
+                    <div class="card-body">
+                        <h5 class="card-title">Damen Ranking</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="https://ttpoint.ch/v1/sites/ranking/index.php?gender=herren">
+                <div class="card light-gray">
+                    <div class="card-body">
+                        <h5 class="card-title">Herren Ranking</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-12">
             <h1>Vereine aus dem Verband: <span data-association></span></h1>
         </div>
     </div>

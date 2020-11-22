@@ -1,6 +1,7 @@
 "use strict";
 
 let baseUrl  = "https://api-ttpoint.ch/api/v1/ranking.php";
+let localUrl  = "https://api-ttpoint.ch/api/v1/localranking.php?association=mttv";
 let url = window.location.href;
 let gender = url.split("?");
 let AJAXMETHOD = "GET";
@@ -13,6 +14,18 @@ if(gender[1] != undefined){
 }else{
     ajaxUrl = baseUrl;
 }
+
+const queryString = window.location.search;
+const apiUrl = baseUrl + queryString;
+const urlParams = new URLSearchParams(queryString);
+gender = urlParams.get('gender');
+const association = urlParams.get('association');
+
+if (association != undefined){
+    ajaxUrl = localUrl;
+}
+console.log(gender);
+console.log(ajaxUrl);
 
 // Abwicklung der Logik startet hier
 let xhttp = new XMLHttpRequest();
