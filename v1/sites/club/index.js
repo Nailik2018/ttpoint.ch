@@ -33,7 +33,7 @@ function getClubname(clubname, dataAttribute){
 
 function drawClubInformationHTML(data, elementId){
     let element = document.getElementById(elementId);
-    element.innerHTML += "<div>Clubname: " + data.clubname + "</div><div>Verband: " + data.association_fullname + "</div><div>Anzahl Lizenziertespieler: " + data.licensedPlayers + "</div><div>Auswertung vom: " + data.month + "." + data.year + "</div>";
+    element.innerHTML += "<div>Clubname: " + data.clubname + "</div><div>Verband: " + data.association_fullname + "</div><div>Anzahl Lizenziertespieler: " + data.licensedPlayers + "</div><div>Auswertung vom: " + data.month + " " + data.year + "</div>";
 }
 
 function drawClubPlayers(data, elementId){

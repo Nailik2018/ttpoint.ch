@@ -31,7 +31,7 @@
                 </a>
             </div>
             <div class="col-md-4">
-                <a href="https://ttpoint.ch/v1/sites/association/?index.phpassociation=anjtt">
+                <a href="https://ttpoint.ch/v1/sites/association/index.php?association=anjtt">
                     <div class="card light-gray">
                         <div class="card-body">
                             <h5 class="card-title">ANJTT</h5>
@@ -73,7 +73,8 @@
 
         <div class="row">
             <div class="col-md-4">
-                <a href="https://ttpoint.ch/v1/sites/association/index.php?association=nwttv"><div class="card light-gray">
+                <a href="https://ttpoint.ch/v1/sites/association/index.php?association=nwttv">
+                    <div class="card light-gray">
                         <div class="card-body">
                             <h5 class="card-title">NWTTV</h5>
                         </div>

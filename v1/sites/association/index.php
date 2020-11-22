@@ -15,7 +15,8 @@
     </div>
     <div class="row">
         <div class="col-md-4">
-            <a href="https://ttpoint.ch/v1/sites/ranking/index.php?association=<?php $_GET['association']?>">
+<!--            <a href="https://ttpoint.ch/v1/sites/ranking/index.php?association=--><?php //$_GET['association']?><!--">-->
+            <a href="<?php echo 'https://ttpoint.ch/v1/sites/ranking/index.php?association=' . $_GET['association']?>">
                 <div class="card swiss">
                     <div class="card-body">
                         <h5 class="card-title">Ranking</h5>
@@ -24,7 +25,8 @@
             </a>
         </div>
         <div class="col-md-4">
-            <a href="https://ttpoint.ch/v1/sites/ranking/index.php?gender=damen">
+<!--            <a href="https://ttpoint.ch/v1/sites/ranking/index.php?gender=damen">-->
+            <a href="<?php echo 'https://ttpoint.ch/v1/sites/ranking/index.php?gender=damen&association=' . $_GET['association']?>">
                 <div class="card white">
                     <div class="card-body">
                         <h5 class="card-title">Damen Ranking</h5>
@@ -33,7 +35,8 @@
             </a>
         </div>
         <div class="col-md-4">
-            <a href="https://ttpoint.ch/v1/sites/ranking/index.php?gender=herren">
+<!--            <a href="https://ttpoint.ch/v1/sites/ranking/index.php?gender=herren">-->
+            <a href="<?php echo 'https://ttpoint.ch/v1/sites/ranking/index.php?gender=herren&association=' . $_GET['association']?>">
                 <div class="card light-gray">
                     <div class="card-body">
                         <h5 class="card-title">Herren Ranking</h5>
