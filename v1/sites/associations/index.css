@@ -32,8 +32,8 @@ body{
     margin-bottom: 10px;
 }
 
-.white:hover, .light-gray:hover, .association-swiss:hover {
-    background: darkcyan;
+.white:hover, .light-gray:hover, .swiss:hover {
+    background: darkcyan !important;
     color: white;
 }
 
@@ -50,11 +50,16 @@ body{
 
 .light-gray{
     background: lightgray;
-    color: white
+    color: white;
 }
 
 .black{
     color: black;
+}
+
+/*a:link, a:visited {*/
+a:link{
+    text-decoration: none;
 }
 
 @media screen and (max-width: 991px) {

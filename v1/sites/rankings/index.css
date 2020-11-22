@@ -30,7 +30,7 @@ body{
     margin-bottom: 10px;
 }
 
-.white:hover, .light-gray:hover, .association-swiss:hover {
+.white:hover, .light-gray:hover, .swiss:hover {
     background: darkcyan;
     color: white;
 }
@@ -53,6 +53,10 @@ body{
 
 .black{
     color: black;
+}
+
+a:link{
+    text-decoration: none;
 }
 
 @media screen and (max-width: 991px) {

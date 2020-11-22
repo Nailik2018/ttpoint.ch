@@ -48,7 +48,6 @@ table{
 }
 
 thead{
-    /*background: slategray;*/
     background: darkcyan;
     color: white;
 }
@@ -57,6 +56,31 @@ tr{
     border-bottom: solid dimgray 1px;
 }
 
+tr:hover{
+    background: darkcyan !important;
+    color: white;
+}
+
 #table-body{
     cursor: pointer;
+}
+
+.white{
+    background: white;
+    color:black;
+}
+
+.light-gray{
+    background: lightgray;
+    color: white;
+}
+
+.white:hover, .light-gray:hover {
+    background: darkcyan;
+    color: white;
+}
+
+
+a:link{
+    text-decoration: none;
 }

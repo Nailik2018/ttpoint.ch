@@ -18,6 +18,7 @@ xhttp.onreadystatechange = function() {
         let json = JSON.parse(this.responseText);
         console.log(json);
         getAssociation(association, '[data-association]');
+        getAssociation(association, '[data-association-1]');
         // drawHTML(json, 'data-content-clubs');
         drawHTML(json, 'table-body');
 

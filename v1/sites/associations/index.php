@@ -5,9 +5,6 @@
 <?php require_once "../../../v1/assets/navigation.php" ?>
 
 <div class="container-fluid">
-<!--    <div class="row" id="distance-to-navigation">-->
-<!--        <div class="col-md-12"></div>-->
-<!--    </div>-->
     <div class="ttpoint-associations">
         <div class="row puffer-to-navigation"></div>
         <div class='row'><div class='col-md-12'><h1>Tischtennis Verbände</h1></div></div>
